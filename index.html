@@ -88,6 +88,12 @@
             margin-bottom: 10px;
         }
 
+        .education-icon {
+            width: 60px; /* Adjust as needed */
+            height: 60px; /* Adjust as needed */
+            margin-bottom: 20px;
+        }
+
         .certification-image {
             width: 100px;
             height: 100px;
@@ -95,7 +101,7 @@
         }
 
         footer {
-            background-color: #ff7e5f;
+            background-color: #0c975d;
             color: #fff;
             padding: 20px 0;
             text-align: center;
@@ -115,19 +121,20 @@
         .social-icons a:hover {
             color: #ff7e5f;
         }
-        .btn-gradient {
-        background: linear-gradient(to right, #ff7e5f, #feb47b); /* Update these colors to match your profile picture gradient */
-        border: none;
-        color: white;
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-        transition: background 0.3s ease;
-    }
 
-    .btn-gradient:hover {
-        background: linear-gradient(to left, #ff7e5f, #feb47b); /* Update these colors to match your profile picture gradient */
-    }
+        .btn-gradient {
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Update these colors to match your profile picture gradient */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .btn-gradient:hover {
+            background: linear-gradient(to left, #ff7e5f, #feb47b); /* Update these colors to match your profile picture gradient */
+        }
     </style>
 </head>
 <body>
@@ -143,6 +150,7 @@
                 <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -154,7 +162,7 @@
         <h2>About Me</h2>
         <img src="icons/profile.jpeg" alt="Sumanth M V" class="profile-image">
         <p>Hi, I am Sumanth M V, 23 years old, DevOps Engineer with experience in automating deployments with Jenkins and other CI/CD tools, containerizing and managing applications using Docker and Kubernetes, proficient in administrating Linux and optimizing infrastructure provisioning with Terraform. Skilled in leveraging AWS Cloud Platform for managing IT infrastructure. Proven track record in enhancing system performance, reducing deployment times, and driving collaboration between development and operations teams.</p>
-        <a href="Sumanth Devops Resume.pdf" download class="btn btn-gradient">
+        <a href="path/to/your/resume.pdf" download class="btn btn-gradient">
             <i class="fas fa-download"></i> Resume
         </a>
     </div>
@@ -180,6 +188,11 @@
                 <p>Skilled in containerization.</p>
             </div>
             <div class="col-md-3">
+                <img src="icons/bash-1.svg" alt="Bash Scripting" class="skill-icon">
+                <h3>Bash Scripting</h3>
+                <p>Strong knowledge of Bash scripting and Linux OS.</p>
+            </div>
+            <div class="col-md-3">
                 <img src="icons/kubernets.svg" alt="Kubernetes" class="skill-icon">
                 <h3>Kubernetes</h3>
                 <p>Mastering Container Orchestration for Efficient and Scalable Deployments.</p>
@@ -203,11 +216,6 @@
                 <img src="icons/sonarqube.svg" alt="SonarQube" class="skill-icon">
                 <h3>SonarQube</h3>
                 <p>Skilled in static code analysis with SonarQube.</p>
-            </div>
-            <div class="col-md-3">
-                <img src="icons/bash-1.svg" alt="Bash Scripting" class="skill-icon">
-                <h3>Bash Scripting</h3>
-                <p>Strong knowledge of Bash scripting and Linux OS.</p>
             </div>
             <div class="col-md-3">
                 <img src="icons/html-1 (1).svg" alt="HTML" class="skill-icon">
@@ -239,15 +247,39 @@
         <div class="row">
             <div class="col-md-4">
                 <h3>AWS Certified Solutions Architect Associate</h3>
-                <p><a href="https://www.udemy.com/certificate/UC-ac8bd059-c4e5-46f6-876d-a85d06aab7ee/" target="_blank">Udemy</a></p>
+                <a href="https://www.udemy.com/certificate/UC-ac8bd059-c4e5-46f6-876d-a85d06aab7ee/" target="_blank" class="btn btn-gradient">
+                    <i class="fas fa-certificate"></i> Udemy
+                </a>
             </div>
             <div class="col-md-4">
                 <h3>The Complete DevOps Bootcamp</h3>
-                <p><a href="https://www.udemy.com/certificate/UC-9fde89da-a106-412a-9244-cde986f250d4/" target="_blank">Udemy</a></p>
+                <a href="https://www.udemy.com/certificate/UC-9fde89da-a106-412a-9244-cde986f250d4/" target="_blank" class="btn btn-gradient">
+                    <i class="fas fa-certificate"></i> Udemy
+                </a>
             </div>
             <div class="col-md-4">
-                <h3>Kodekloud Labs: The Complete DevOps Bootcamp</h3>
-                <p><a href="https://kodekloud.com/certificate-verification/2DF18B6C188E-2DF87609D4EC-2DF17FCE0220/" target="_blank">Kodekloud</a></p>
+                <h3>Kodekloud Labs: Hands on DevOps Bootcamp</h3>
+                <a href="https://kodekloud.com/certificate-verification/2DF18B6C188E-2DF87609D4EC-2DF17FCE0220/" target="_blank" class="btn btn-gradient">
+                    <i class="fas fa-certificate"></i> Kodekloud
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="education" class="content-section">
+    <div class="container text-center">
+        <h2>Education</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="icons/jnnce.jpg" alt="Education" class="education-icon">
+                <h3>Master of Computer Application</h3>
+                <p>Jawaharlal Nehru National College of Engineering</p>
+            </div>
+            <div class="col-md-12">
+                <img src="icons/srnmnc.jpg" alt="Education" class="education-icon">
+                <h3>BCA</h3>
+                <p>S.R.N.M. National College of Applied Sciences</p>
             </div>
         </div>
     </div>
@@ -273,7 +305,7 @@
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
